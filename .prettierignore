@@ -1,0 +1,4 @@
+.solid
+dist
+*.min.*
+package-lock.json
