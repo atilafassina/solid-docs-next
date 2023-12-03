@@ -2,3 +2,4 @@
 dist
 *.min.*
 package-lock.json
+pnpm-lock.yaml

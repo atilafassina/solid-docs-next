@@ -1,24 +1,20 @@
-.vscode/
-coverage/
-types/
-
-yarn.lock
-pnpm-lock.yaml
-
-.turbo
-
-packages/create-solid/bin
-*.log
 
 dist
-worker
 .solid
+.output
+.vercel
+.netlify
+netlify
+
+# Environment
+.env
+.env*.local
 
 # dependencies
-node_modules
+/node_modules
 
 # IDEs and editors
-.idea
+/.idea
 .project
 .classpath
 *.launch
@@ -27,15 +23,6 @@ node_modules
 # Temp
 gitignore
 
-.env
-
 # System Files
 .DS_Store
 Thumbs.db
-# Local Netlify folder
-.netlify
-# Netlify build dir
-netlify
-/test-results/
-/playwright-report/
-/playwright/.cache/
