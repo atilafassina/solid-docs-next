@@ -42,3 +42,6 @@ netlify
 
 .solid
 .vinxi
+package-lock.json
+bun.lockb
+yarn.lock
