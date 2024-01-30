@@ -1,0 +1,28 @@
+---
+title: Meta-Framework
+---
+
+Web applications often comprise many components: databases, servers, front-ends, bundlers, data fetching/mutations, caching, and infrastructure. Orchestrating these components is challenging and often requires a large amount of shared state and redundant logic across the application stack.
+`
+Enters SolidStart: a meta-framework that provides the platform to put all of these pieces together in a one location.
+
+## What is a meta-framework?
+
+Meta-framework is a combination of different tooling and interfaces that are put together in an orchestrated way to reach more complete functionality. In SolidStart's case, there are 3 fundamental pieces that compose a typical app:
+
+- Solid's core: the view library.
+- Vinxi: an agnostic framework bundler combining [Nitro](https://nitro.unjs.io/) and [Vite](https://vite.dev).
+- Seroval: a powerful serialization library.
+
+Unlike most other meta-frameworks, SolidStart does not aim to be too opinionated. It provides the minimal amount of pieces to get you up and going. While there are templates that include many of the expected tools, SolidStart itself does not ship with a router or metadata library. Instead it leaves it open to using which ever libraries you feel comfortable with.
+
+## Render Modes
+
+SolidStart enables you to render your application in different ways depending on what's best for your use case:
+
+- Static site generation (SSG)
+- Client-side rendering (CSR)
+- Server-side rendering (SSR)
+- Streaming SSR
+
+One of the driving principles of SolidStart is that code should be isomorphic, this means you should be able to write code once and it will run correctly regardless if on the client or on the server.
